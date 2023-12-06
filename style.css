@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 250px;
+}
+
+.principal {
+    position: absolute;
+    top: 250px;
+}
+
+.bloco1 {
+    align-items: center;
+}
+
+.parte1 {
+    text-align: center;
+    /* background-color: violet; */
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.parte1__p {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.parte1 h3 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.parte1__p2 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h1 {
+
+    line-height: 200px;
+    color: red;
+    font-size: 300px;
+    font-style: italic;
+}
+
+.p__h1 {
+    position: absolute;
+    top: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 6px;
+}
+
+.meio h4 {
+    position: absolute;
+    font-size: 120px;
+    /* background-color: tomato; */
+    z-index: 1;
+    /* letter-spacing: 10px; */
+    line-height: 85px;
+    width: 700px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+.meio2 {
+    position: absolute;
+    top: 550px;
+    font-size: 28px;
+    display: inline;
+    /* letter-spacing: -1px; */
+    /* background-color: yellow; */
+    width: 700px;
+    z-index: 1;
+}
+
+.parte2 {
+    position: absolute;
+    top: 650px;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-left: 80px;
+}
+
+.wonder {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.autores {
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.autores h4 {
+    margin-top: 5px;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: auto;
+    height: 1310px;
+
+}
+
+.autores p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+h6 {
+    position: absolute;
+    top: 890px;
+    /* background-color: violet; */
+    font-size: 25px;
+    text-align: center;
+}
+
+video {
+    position: fixed; /*  absolute ou fixed */
+    width: 100%;
+    z-index: -7;
+    /* height: 100%; */
+    left: 0px;
+    top: 0px;
+    /* opacity: 0.7; */
+  }
